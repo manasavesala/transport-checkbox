@@ -12,7 +12,9 @@
       <div class="jumbotron">
         <h2>Transportation Survey</h2>
       </div>
+
       <form id="transportation_survey">
+
         <div class="form-group">
           <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
           <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
@@ -29,11 +31,25 @@
           <input type="checkbox" name="work-transportation" value="scooter">Riding a scooter.<br>
           <input type="checkbox" name="work-transportation" value="other">Another mode of transportation not listed here.<br>
         </div>
+
+        <div class="form-group">
+          <p>Leisure transportation options:</p>
+          <input type="checkbox" name="leisure-transportation" value="Uber"> Uber<br>
+          <input type="checkbox" name="leisure-transportation" value="Lyft">Lyft<br>
+          <input type="checkbox" name="leisure-transportation" value="Bicycling">Bicycling<br>
+          <input type="checkbox" name="leisure-transportation" value="Walking">Walking<br>
+        </div>
+
        <button type="submit">Submit Survey</button>
       </form>
       <span id="work-responses">
         <p><b>You use the following methods of transportation to travel to work or school:</b></p>
       </span>
+
+      <span id="leisure-responses">
+        <p><b>You use the following methods of transportation to travel for leisure:</b></p>
+      </span>
+
     </div>
   </body>
 </html>
